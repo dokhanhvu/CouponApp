@@ -6,6 +6,7 @@
     android:background="@color/colorGallery"
     android:layout_gravity="bottom"
     android:minHeight="@dimen/abc_action_bar_default_height_material"
+    android:padding="5dp"
     android:orientation="vertical">
 
     <LinearLayout

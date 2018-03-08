@@ -21,6 +21,7 @@
         android:layout_above="@+id/nav_bottom"
         android:layout_width="match_parent"
         android:layout_height="32dp"
+        android:background="@color/colorWhite"
         app:ci_drawable="@drawable/bg_selected_circle"
         app:ci_drawable_unselected="@drawable/bg_unselected_circle"/>
 
