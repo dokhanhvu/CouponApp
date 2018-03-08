@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bottom_home"
+        android:icon="@drawable/ic_menu_home"
+        android:title="@string/home"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/bottom_shop"
+        android:icon="@drawable/ic_menu_shop"
+        android:title="@string/shop"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/bottom_camera"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="@string/camera"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/bottom_coupon"
+        android:icon="@drawable/ic_menu_coupon"
+        android:title="@string/coupon"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/bottom_chat"
+        android:icon="@drawable/ic_menu_chat"
+        android:title="@string/chat"
+        app:showAsAction="always|withText" />
+</menu>
