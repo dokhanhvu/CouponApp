@@ -9,14 +9,13 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="10dp">
 
     <TextView
         android:id="@+id/tv_content"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:padding="10dp"
         android:textSize="16sp"
         android:textAlignment="center"
         tools:text="Giảm 20% áp dụng cho hoá đơn trên 1 triệu đồng" />
@@ -25,8 +24,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/bg_card_boder"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:layout_marginBottom="20dp">
 
     <RelativeLayout
@@ -76,6 +75,7 @@
             android:padding="10dp"
             android:textColor="@color/colorWhite"
             android:textSize="16sp"
+            android:textStyle="bold"
             tools:text="Pi Vegetarian Bistro - Am thuc chay" />
 
         <LinearLayout
@@ -89,7 +89,7 @@
             <TextView
                 android:id="@+id/tv_detail"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="36dp"
                 android:layout_below="@+id/tv_name"
                 android:layout_centerHorizontal="true"
                 android:maxHeight="40dp"
@@ -101,7 +101,6 @@
                 android:id="@+id/tv_category"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingBottom="5dp"
                 android:textColor="@color/colorGray"
                 android:textSize="16sp"
                 tools:text="Ẩm thực chay" />
@@ -115,8 +114,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/bg_gray_oval"
-        android:padding="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
         android:text="View Coupon Detail"
+        android:textStyle="bold"
         android:textAllCaps="false"
         android:textColor="@color/colorWhite"
         android:textSize="16sp" />
